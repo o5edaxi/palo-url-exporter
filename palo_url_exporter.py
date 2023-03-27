@@ -1,5 +1,5 @@
 """This module reads a Palo Alto configuration in XML format and outputs a csv file of the form:
-profile,category1,category2,category3
+profile_name,category1,category2,category3
 default,allow,alert,block
 Alert_Only,alert,alert,alert
 Strict,alert,block,block
