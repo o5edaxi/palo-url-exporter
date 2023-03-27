@@ -11,6 +11,8 @@ Strict,alert,block,block
 
 This makes it easy to perform firewall audits and check that certain URL Categories are blocked or allowed for all profiles. Use the -i flag to transpose the CSV output, to have the profile names as rows and the URL Categories as columns.
 
+File **builtin_categories.txt** contains the full list of Palo Alto URL Categories so as to output a complete CSV even if some of them aren't explicitly configured in the URL Profiles. This is because the default action (Allow) for a certain URL Category does not show in the XML configuration unless it has been manually modified in the past, and this could cause the extract to miss displaying certain allowed websites. The file must be updated with any future URL Category Palo Alto releases in the future.
+
 ### Usage
 
 ```
