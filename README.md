@@ -1,6 +1,6 @@
 # Palo Alto URL Filtering Profile Exporter
 
-This script takes a firewall or Panorama configuration in XML format and outputs a CSV file with the following structure:
+This script takes a firewall or Panorama configuration in XML format and outputs a CSV file **url_profiles.csv** with the following structure:
 
 ```
 profile_name,category1,category2,category3
