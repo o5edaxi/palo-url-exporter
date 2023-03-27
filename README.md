@@ -18,12 +18,12 @@ An empty entry for Custom URL Categories in the CSV is equivalent to an action o
 ### Usage
 
 ```
-Usage: palo_urlcat_analyzer.py [-h] [-i] config_file
+Usage: palo_url_exporter.py [-h] [-i] config_file
 ```
 ```
 Example:
 
-  $ python3 palo_urlcat_analyzer.py /home/user/Downloads/running-config.xml
+  $ python3 palo_url_exporter.py /home/user/Downloads/running-config.xml
 ```
 
 The script has been tested with PanOS 10.1.
