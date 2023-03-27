@@ -13,7 +13,7 @@ This makes it easy to perform firewall audits and check that certain URL Categor
 
 File **builtin_categories.txt** contains the full list of predefined Palo Alto URL Categories so as to output a complete CSV even if some of them aren't explicitly configured in the URL Profiles. This is because the default action (Allow) for a certain URL Category does not show in the XML configuration unless it has been manually modified in the past, and this could cause the extract to miss displaying certain allowed websites. The file must be updated with any URL Categories Palo Alto releases in the future.
 
-An empty entry for Custom URL Categories in the CSV is equivalent to an action of "None" and indicates that the Custom URL Category is not considered when filtering the traffic. The action for the built-in category of the website applies in this case.
+An empty entry for Custom URL Categories in the CSV is equivalent to an action of "None" and indicates that the Custom URL Category is not considered when filtering the traffic. The action for the predefined category of the website applies in this case.
 
 ### Usage
 
