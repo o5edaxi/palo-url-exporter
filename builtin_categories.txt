@@ -33,6 +33,7 @@ job-search
 legal
 low-risk
 malware
+marijuana
 medium-risk
 military
 motor-vehicles
