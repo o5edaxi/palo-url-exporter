@@ -57,6 +57,7 @@ real-time-detection
 recreation-and-hobbies
 reference-and-research
 religion
+remote-access
 scanning-activity
 search-engines
 sex-education
