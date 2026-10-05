@@ -15,6 +15,10 @@ File **builtin_categories.txt** contains the full list of predefined Palo Alto U
 
 An empty entry for Custom URL Categories in the CSV is equivalent to an action of "None" and indicates that the Custom URL Category is not considered when filtering the traffic. The action for the predefined category of the website applies in this case.
 
+### SCM Support
+
+The script can now pull URL profiles from Strata Cloud Manager for exporting.
+
 ### Usage
 
 ```
@@ -37,10 +41,13 @@ Example:
 
   $ python3 palo_url_exporter.py /home/user/Downloads/running-config.xml
 
+  $ export SCM_CLIENT_ID=""
+  $ export SCM_CLIENT_SECRET=""
+  $ export SCM_TSG_ID=""
   $ python3 palo_url_exporter.py scm --folder Branch
 ```
 
-The script has been tested with PanOS 10.1.
+The script has been tested with PanOS 10.1, PanOS 10.2, PanOS 11.1, SCM.
 
 ### Requirements
 
