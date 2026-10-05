@@ -83,7 +83,7 @@ if __name__ == '__main__':
     parser.add_argument('-s', '--snippet', type=str, default=None, help='SCM Snippet. Default: folder All')
     parser.add_argument('-k', '--ignore-ssl', action='store_false', help='Ignore SSL Errors for SCM connection. Default: False')
     parser.add_argument('config_file', type=str, help='The firewall or Panorama  configuration in '
-                                                      'XML format.')
+                                                      'XML format. Input "scm" to connect to SCM instead.')
     args = parser.parse_args()
     USE_SCM = True if args.config_file == SCM_KEYWORD else False
     with open('builtin_categories.txt', 'r', encoding='utf8') as builtins_file:
