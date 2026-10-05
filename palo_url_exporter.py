@@ -4,7 +4,7 @@ default,allow,alert,block
 Alert_Only,alert,alert,alert
 Strict,alert,block,block
 
-usage: palo_urlcat_analyzer.py [-h] [-i] config_file"""
+usage: palo_url_exporter.py [-h] [-i] [-f FOLDER] [-s SNIPPET] [-k] config_file"""
 
 import csv
 import argparse
