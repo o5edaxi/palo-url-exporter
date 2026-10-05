@@ -18,7 +18,19 @@ An empty entry for Custom URL Categories in the CSV is equivalent to an action o
 ### Usage
 
 ```
-Usage: palo_url_exporter.py [-h] [-i] config_file
+usage: palo_url_exporter.py [-h] [-i] [-f FOLDER] [-s SNIPPET] [-k] config_file
+
+positional arguments:
+  config_file           The firewall or Panorama configuration in XML format.
+
+options:
+  -h, --help            show this help message and exit
+  -i, --invert-csv      Invert rows with columns
+  -f FOLDER, --folder FOLDER
+                        SCM Folder. Default: All
+  -s SNIPPET, --snippet SNIPPET
+                        SCM Snippet. Default: folder All
+  -k, --ignore-ssl      Ignore SSL Errors for SCM connection. Default: False
 ```
 ```
 Example:
