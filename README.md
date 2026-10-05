@@ -52,6 +52,7 @@ The script has been tested with PanOS 10.1, PanOS 10.2, PanOS 11.1, SCM.
 ### Requirements
 
 - [lxml](https://pypi.org/project/lxml/) (install with ```pip3 install lxml```)
+- [pan-scm-sdk](https://pypi.org/project/pan-scm-sdk/) (install with ```pip3 install pan-scm-sdk```)
 
 ### License
 
