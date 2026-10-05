@@ -36,6 +36,8 @@ options:
 Example:
 
   $ python3 palo_url_exporter.py /home/user/Downloads/running-config.xml
+
+  $ python3 palo_url_exporter.py scm --folder Branch
 ```
 
 The script has been tested with PanOS 10.1.
