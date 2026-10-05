@@ -21,7 +21,7 @@ An empty entry for Custom URL Categories in the CSV is equivalent to an action o
 usage: palo_url_exporter.py [-h] [-i] [-f FOLDER] [-s SNIPPET] [-k] config_file
 
 positional arguments:
-  config_file           The firewall or Panorama configuration in XML format.
+  config_file           The firewall or Panorama configuration in XML format. Input "scm" to connect to SCM instead.
 
 options:
   -h, --help            show this help message and exit
